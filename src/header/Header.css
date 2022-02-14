@@ -1,0 +1,12 @@
+.header {
+  background: green;
+}
+
+.logo {
+  height: 30px;
+  pointer-events: none;
+}
+
+h1 {
+  display: inline-block;
+}
