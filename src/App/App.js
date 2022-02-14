@@ -1,9 +1,9 @@
 // import React from "react";
 import "./App.css";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
-import Sidebar from "../left-sidebar/Sidebar";
-import Profile from "../profile/Profile";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import Sidebar from "../Left-sidebar/Sidebar";
+import Profile from "../Profile/Profile";
 
 function App() {
   return (
