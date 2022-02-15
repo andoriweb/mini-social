@@ -1,6 +1,11 @@
-.sidebar {
+.left-sidebar {
   background: pink;
   width: 150px;
   padding: 20px;
   margin-right: 10px;
+}
+
+.left-sidebar__navigation a {
+  display: block;
+  margin-bottom: 10px;
 }

@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Sidebar from "../Left-sidebar/Sidebar";
 import Profile from "../Profile/Profile";
+import Dialog from "../Dialog/Dialog";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Header />
         <div className="content-block">
           <Sidebar />
-          <Profile />
+          {/* <Profile /> */}
+          <Dialog />
         </div>
         <Footer />
       </div>
