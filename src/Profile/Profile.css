@@ -2,3 +2,10 @@
   background: #aeaeae;
   flex: 1 1 auto;
 }
+
+.profile-bg {
+  height: 200px;
+  background-image: url(./z_1de13764.jpg);
+  background-position: center center;
+  background-size: cover;
+}

@@ -1,4 +1,6 @@
 .sidebar {
   background: pink;
-  width: 250px;
+  width: 150px;
+  padding: 20px;
+  margin-right: 10px;
 }
