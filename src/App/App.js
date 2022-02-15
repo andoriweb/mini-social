@@ -15,10 +15,10 @@ function App(props) {
           <Header />
           <div className="content-block">
             <Sidebar />
-            {/* <Route path="/profile" component={Profile} /> */}
-            {/* <Route path="/dialog" component={Dialog} /> */}
-            <Profile />
-            {/* <Dialog /> */}
+            {/* <Route exact path="/profile" component={Profile} /> */}
+            {/* <Route exact path="/dialog" component={Dialog} /> */}
+            {/* <Profile /> */}
+            <Dialog />
           </div>
           <Footer />
         </div>
