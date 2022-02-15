@@ -5,8 +5,8 @@ import "./Posts.css";
 function Posts() {
   return (
     <div>
-      <Post />
-      <Post />
+      <Post title="Hi" likes="20" />
+      <Post title="Hello" likes="14" />
     </div>
   );
 }
