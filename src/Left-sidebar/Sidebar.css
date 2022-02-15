@@ -10,6 +10,6 @@
   margin-bottom: 10px;
 }
 
-.active {
+.left-sidebar__navigation a.active {
   color: red;
 }
