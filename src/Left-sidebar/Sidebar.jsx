@@ -7,7 +7,7 @@ function Sidebar() {
     <aside className="left-sidebar">
       <nav className="left-sidebar__navigation">
         <NavLink to="/">Profile</NavLink>
-        <NavLink to="/dialog">Dialog</NavLink>
+        <NavLink to="/messager">Messager</NavLink>
       </nav>
     </aside>
   );

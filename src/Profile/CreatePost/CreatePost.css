@@ -1,9 +1,4 @@
-.profile-user {
-  display: flex;
-}
-
-.profile-user__avatar {
-  width: 200px;
-  margin-right: 20px;
-  border: 1px solid black;
+.create-post {
+  padding: 20px;
+  margin-top: 40px;
 }

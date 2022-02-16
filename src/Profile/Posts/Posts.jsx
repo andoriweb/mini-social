@@ -7,6 +7,8 @@ function Posts() {
     <div>
       <Post title="Hi" likes="20" />
       <Post title="Hello" likes="14" />
+      <Post title="Hello" likes="14" />
+      <Post title="Hello" likes="14" />
     </div>
   );
 }

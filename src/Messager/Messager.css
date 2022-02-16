@@ -1,36 +1,36 @@
-.dialog {
+.messager {
   background: yellowgreen;
-  flex: 1 1 auto;
+  flex: 0 1 100%;
+  /* width: 100%; */
   padding: 20px;
   display: flex;
+  min-height: 100vh;
 }
 
-.dialog-menu {
+.messager-dialogs {
   min-width: 150px;
   border-right: 1px solid black;
+  /* display: flex; */
 }
 
-.dialog-menu a {
+.messager-dialogs a {
   display: block;
   margin-bottom: 15px;
   text-decoration: none;
-  color: blue;
+  color: gray;
 }
 
-.dialog-menu a.active {
+.messager-dialogs a.active {
   color: black;
+  font-weight: bold;
 }
 
-.dialog-menu h3 {
+.messager-dialogs h3 {
   display: inline-block;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
 }
 
-.dialog-content {
+.messager-text {
   padding-left: 20px;
-}
-
-a.active {
-  color: red;
 }

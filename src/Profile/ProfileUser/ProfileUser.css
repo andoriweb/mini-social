@@ -4,6 +4,10 @@
 
 .profile-user__avatar {
   width: 200px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   border: 1px solid black;
+}
+
+.profile-user__data {
+  margin-left: 20px;
 }

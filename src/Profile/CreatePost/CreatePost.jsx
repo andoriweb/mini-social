@@ -3,7 +3,7 @@ import "./CreatePost.css";
 
 function CreatePost() {
   return (
-    <div>
+    <div className="create-post">
       <textarea name="" id="" cols="30" rows="3"></textarea>
       <button>Create Post</button>
     </div>
