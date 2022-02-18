@@ -16,8 +16,16 @@ function App(props) {
           <div className="content-block">
             <Sidebar />
             <Routes>
-              <Route path="/" element={<Profile />} />
-              <Route path="/messager" element={<Messager />} />
+              <Route path="/" element={<Profile postData={props.postData} />} />
+              <Route
+                path="/messager"
+                element={
+                  <Messager
+                    dialogData={props.dialogData}
+                    messageData={props.messageData}
+                  />
+                }
+              />
             </Routes>
           </div>
           <Footer />

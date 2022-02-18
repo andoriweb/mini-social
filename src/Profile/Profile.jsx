@@ -4,13 +4,13 @@ import "./Profile.css";
 import CreatePost from "./CreatePost/CreatePost";
 import ProfileUser from "./ProfileUser/ProfileUser";
 
-function Profile() {
+function Profile(props) {
   return (
     <div className="profile">
       <div className="profile-bg"></div>
       <ProfileUser />
       <CreatePost />
-      <Posts />
+      <Posts postData={props.postData} />
     </div>
   );
 }
