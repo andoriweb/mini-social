@@ -16,13 +16,16 @@ function App(props) {
           <div className="content-block">
             <Sidebar />
             <Routes>
-              <Route path="/" element={<Profile postData={props.postData} />} />
+              <Route
+                path="/"
+                element={<Profile state={props.state.profilePage} />}
+              />
               <Route
                 path="/messager"
                 element={
                   <Messager
-                    dialogData={props.dialogData}
-                    messageData={props.messageData}
+                    state={props.state.messagerPage}
+                    state={props.state.messagerPage}
                   />
                 }
               />

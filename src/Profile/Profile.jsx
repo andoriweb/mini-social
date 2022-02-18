@@ -10,7 +10,7 @@ function Profile(props) {
       <div className="profile-bg"></div>
       <ProfileUser />
       <CreatePost />
-      <Posts postData={props.postData} />
+      <Posts postData={props.state.postData} />
     </div>
   );
 }

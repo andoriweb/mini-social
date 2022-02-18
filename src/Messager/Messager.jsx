@@ -11,11 +11,11 @@ function Messager(props) {
     return <p>{props.message}</p>;
   };
 
-  let dialogElement = props.dialogData.map((dialog) => {
+  let dialogElement = props.state.dialogData.map((dialog) => {
     return <DialogItem name={dialog.name} id={dialog.id} />;
   });
 
-  let messageElement = props.messageData.map((mess) => {
+  let messageElement = props.state.messageData.map((mess) => {
     return <DialogText message={mess.message} />;
   });
 
